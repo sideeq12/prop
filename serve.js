@@ -23,20 +23,20 @@ renderer.setSize(width, height);
 mainBg.appendChild(renderer.domElement);
 var gltf_loader = new GLTFLoader();
 var obj;
-gltf_loader.load("scene.gltf", function(gltf){
+gltf_loader.load("vivi.glb", function(gltf){
   obj = gltf.scene
   const model = gltf.scene;
   
-  gltf.scene.rotation.x =  0.3;
+  // gltf.scene.rotation.x =  0.3;
   gltf.scene.rotation.y =  -0.3;
- model.scale.set(0.5, 0.6, 0.5); // set the scale
+ model.scale.set(2, 2, 2); // set the scale
  scene.add(model);
 })
-var light = new THREE.HemisphereLight(0xffffff, 0x000000, 12);
+var light = new THREE.HemisphereLight(0xffffff, 0x000000, 50);
 // scene.background = new THREE.Color(0x000)
 scene.background = new THREE.Color(0x4e3d2c)
 scene.add(light)
-camera.position.set(0, 0, 5);
+camera.position.set(0, 2, 5);
 
 function animate() {
   requestAnimationFrame(animate);     
