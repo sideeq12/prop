@@ -65,7 +65,6 @@ gsap.to(red, {
     scrollTrigger :{
         trigger : red,
         start : "top center",
-        
     },
     opacity : 1,
     duration : 3
@@ -101,7 +100,6 @@ gsap.to(mail, {
     scrollTrigger :{
         trigger : mail,
         start : "top center",
-        
     },
     opacity : 1,
     duration : 3
