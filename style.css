@@ -286,7 +286,7 @@ canvas{
         margin-top: -150px;
     }
     .panel{
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .panel .imagebox{
         margin-top: 10px;
@@ -308,11 +308,10 @@ canvas{
         width: 280px;
         margin: 20px 0px 0px 20px;
     }
-    .panel p{
-        margin-top: -20px;
-    }
     .panel .infobox{
         width: 80vw;
+        margin-top: -40px;
+        border: 1px solid red;
     }
 
     .imageslayout .img{
