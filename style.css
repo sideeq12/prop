@@ -325,8 +325,8 @@ canvas{
         position: absolute;
     }
     .SideeqInfo{
-        margin-left: 0px;
         width: 100vw;
+        margin-top: -20px;
         margin-left: -80px;
     }
     .SideeqInfo h1{
