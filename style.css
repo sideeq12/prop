@@ -289,16 +289,20 @@ canvas{
         margin-top: 10px;
         border: 1px solid white;
         height: 200px;
-        width: 300px;
+        width: 280px;
         margin-right: 0px;
         margin-left: 10px;
     }
     .panel p{
         font-size: small;
     }
+    .panel p label{
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
     .panel .imagebox .image{
         height: 200px;
-        width: 300px;
+        width: 280px;
         margin: 25px 0px 0px 25px;
     }
     .panel .infobox{
