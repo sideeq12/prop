@@ -1,6 +1,11 @@
 gsap.registerPlugin(ScrollTrigger);
 
-let sections = gsap.utils.toArray(".panel");
+let red = document.querySelector(".red")
+let purple = document.querySelector(".purple")
+let orange = document.querySelector(".orange")
+let mail = document.querySelector(".mail")
+let prev = document.querySelector(".prev")
+let phylo = document.querySelector(".phylo")
 let firstImage = document.querySelector(".first");
 let secondImage = document.querySelector(".second");
 let headname = document.querySelector(".headline");
@@ -8,6 +13,7 @@ let message = document.querySelector(".message")
 let label = document.querySelector(".lab")
 let home = document.querySelector(".firstContainer")
 let button = document.querySelector(".explore")
+let contain = document.querySelector(".container")
 
 gsap.from(firstImage, {
     y: -200,
@@ -46,6 +52,70 @@ gsap.from(button, {
     delay : 2,
     ease : "power2.inOut"
 })
+gsap.to(contain, {
+    scrollTrigger :{
+        trigger : contain,
+        start : "top center",
+        
+    },
+    opacity : 1,
+    duration : 3
+})
+gsap.to(red, {
+    scrollTrigger :{
+        trigger : red,
+        start : "top center",
+        
+    },
+    opacity : 1,
+    duration : 3
+})
+gsap.to(orange, {
+    scrollTrigger :{
+        trigger : orange,
+        start : "top center",
+        
+    },
+    opacity : 1,
+    duration : 3
+})
+gsap.to(prev, {
+    scrollTrigger :{
+        trigger : prev,
+        start : "top center",
+        
+    },
+    opacity : 1,
+    duration : 3
+})
+gsap.to(purple, {
+    scrollTrigger :{
+        trigger : purple,
+        start : "top center",
+        
+    },
+    opacity : 1,
+    duration : 3
+})
+gsap.to(mail, {
+    scrollTrigger :{
+        trigger : mail,
+        start : "top center",
+        
+    },
+    opacity : 1,
+    duration : 3
+})
+gsap.to(phylo, {
+    scrollTrigger :{
+        trigger : phylo,
+        start : "top center",
+        
+    },
+    opacity : 1,
+    duration : 3
+})
+
 button.addEventListener("click", ()=>{
     gsap.to(firstImage, {
         y: -200,

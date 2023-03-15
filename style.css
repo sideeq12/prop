@@ -4,6 +4,7 @@
 body{
     margin: 0;
     padding: 0;
+       background-color: black;
 }
 html {
 	overflow-y: scroll;
@@ -25,15 +26,17 @@ html, body {
 	height: 100vh;
 	display: flex;
 	flex-wrap: nowrap;
-    background-color: black;
+    opacity: 0;
 }
 .panel{
     width: 100vw;
     height: 100vh;
-    background-color: black;
     text-align: center;
     font-size: 20px;
     color: white;
+}
+.red, .orange, .purple, .prev, .mail, .phylo{
+    opacity: 0;
 }
 .panel p a, .panel p label{
     font-size: small;
