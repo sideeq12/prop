@@ -21,7 +21,7 @@ html, body {
 	margin: 0;
 }
 .container {
-	width: 700vw;
+	width: 100vw;
 	height: 100vh;
 	display: flex;
 	flex-wrap: nowrap;
@@ -30,6 +30,7 @@ html, body {
 .panel{
     width: 100vw;
     height: 100vh;
+    background-color: black;
     text-align: center;
     font-size: 20px;
     color: white;
