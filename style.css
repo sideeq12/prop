@@ -274,7 +274,7 @@ canvas{
         padding: 0px 20px 0px 0px;
     }
     .description h1{
-        font-size: 33px;
+        font-size: 35px;
         letter-spacing: 1px;
         word-spacing: 3px;
         width: 80vw;
@@ -284,9 +284,6 @@ canvas{
         align-items: flex-start;
         justify-content: left;
         margin-top: -150px;
-    }
-    .panel{
-        /* border: 1px solid red; */
     }
     .panel .imagebox{
         margin-top: 10px;
@@ -310,8 +307,7 @@ canvas{
     }
     .panel .infobox{
         width: 80vw;
-        margin-top: -40px;
-        border: 1px solid red;
+        margin-top: -60px;
     }
 
     .imageslayout .img{
