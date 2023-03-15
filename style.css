@@ -286,12 +286,15 @@ canvas{
         margin-top: -150px;
     }
     .panel .imagebox{
-        margin-top: 20px;
+        margin-top: 10px;
         border: 1px solid white;
         height: 200px;
         width: 300px;
         margin-right: 0px;
         margin-left: 10px;
+    }
+    .panel p{
+        font-size: small;
     }
     .panel .imagebox .image{
         height: 200px;
